@@ -1,8 +1,8 @@
 {
-    "name": "Catppuccin Mocha",
+    "name": "Catppuccin Late",
     "version": "1",
-    "description": "Catppuccin Mocha for Emnity",
-    "color": "#cba6f7",
+    "description": "Catppuccin Late for Emnity",
+    "color": "#eff1f5",
     "authors": [
       {
         "name": "112c",
@@ -11,8 +11,8 @@
     ],
     "theme_color_map": {
       "KEYBOARD": [
-        "#585b70",
-        "#cdd6f4"
+        "#eff1f5",
+        "#4c4f69"
       ],
       "HEADER_PRIMARY": [
         "#BDE6FB",
