@@ -3,7 +3,7 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin for <a href="https://github.com/catppuccin/enmity">Enmity</a>
   
-<img src="https://raw.githubusercontent.com/112cxyz/enmity/main/assets/enmity.png" height="1200px"/>
+<img src="https://raw.githubusercontent.com/112cxyz/enmity/main/assets/enmity.png" height="500"/>
 </h3>
 
 <p align="center">
