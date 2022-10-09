@@ -17,11 +17,37 @@
 
 ## Usage
 
-1. Open Emnity
-2. Open Emnity's settings where your Discord profile is
-3. Goto Themes
-4. Press +
-5. Add Selected Theme
+<details>
+<summary>🌻 Latte</summary>
+<h5> Add this theme in Enmity's theme settings</h5>
+	
+    https://112c.co.uk/emnity/themes/Latte.json
+
+</details>
+
+<details>
+<summary>🪴 Frappé</summary>
+<h5> Add this theme in Enmity's theme settings</h5>
+	
+    https://112c.co.uk/emnity/themes/Frappe.json
+
+</details>
+
+<details>
+<summary> 🌺 Macchiato</summary>
+<h5> Add this theme in Enmity's theme settings</h5>
+	
+    https://112c.co.uk/emnity/themes/Macchiato.json
+
+</details>
+
+<details>
+<summary>🌿  Mocha</summary>
+<h5> Add this theme in Enmity's theme settings</h5>
+	
+    https://112c.co.uk/emnity/themes/Mocha.json
+
+</details>
 
 
 ## 💝 Thanks to
