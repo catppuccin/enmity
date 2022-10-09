@@ -12,7 +12,7 @@
 	<a href="https://github.com/catppuccin/enmity/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/enmity?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-  ![All Vers](https://raw.githubusercontent.com/112cxyz/emnity/main/assets/githubfinal.png)
+  ![All Vers](https://raw.githubusercontent.com/112cxyz/enmity/main/assets/githubfinal.png)
   
 
 ## Usage
