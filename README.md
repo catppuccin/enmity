@@ -3,7 +3,7 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin for <a href="https://github.com/catppuccin/enmity">Enmity</a>
   
-  ![All Vers](https://raw.githubusercontent.com/112cxyz/emnity/main/assets/enmity.png)
+
 </h3>
 
 <p align="center">
@@ -12,9 +12,7 @@
 	<a href="https://github.com/catppuccin/enmity/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/enmity?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-	<img src=""/>
-</p>
+  ![All Vers](https://raw.githubusercontent.com/112cxyz/emnity/main/assets/enmity.png)
 
 ## Usage
 
