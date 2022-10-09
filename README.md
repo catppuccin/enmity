@@ -21,7 +21,7 @@
 <summary>🌻 Latte</summary>
 <h5> Add this theme in Enmity's theme settings</h5>
 	
-    https://112c.co.uk/emnity/themes/Latte.json
+    https://raw.githubusercontent.com/112cxyz/emnity/main/themes/Latte.json
 
 </details>
 
@@ -29,7 +29,7 @@
 <summary>🪴 Frappé</summary>
 <h5> Add this theme in Enmity's theme settings</h5>
 	
-    https://112c.co.uk/emnity/themes/Frappe.json
+    https://raw.githubusercontent.com/112cxyz/emnity/main/themes/Frappe.json
 
 </details>
 
@@ -37,7 +37,7 @@
 <summary> 🌺 Macchiato</summary>
 <h5> Add this theme in Enmity's theme settings</h5>
 	
-    https://112c.co.uk/emnity/themes/Macchiato.json
+    https://raw.githubusercontent.com/112cxyz/emnity/main/themes/Macchiato.json
 
 </details>
 
@@ -45,7 +45,7 @@
 <summary>🌿  Mocha</summary>
 <h5> Add this theme in Enmity's theme settings</h5>
 	
-    https://112c.co.uk/emnity/themes/Mocha.json
+    https://raw.githubusercontent.com/112cxyz/emnity/main/themes/Mocha.json
 
 </details>
 
