@@ -1,15 +1,20 @@
 {
 	"name": "Mocha",
-	"version": "1.5",
+	"version": "1.7",
 	"description": "☕️ Catppuccin Mocha.",
 	"color": "#cba6f7",
 	"authors": [
 		{
 			"name": "112c",
 			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
 		}
 	],
-	"theme_color_map": {
+	"spec": 2,
+	"semanticColors": {
 		"KEYBOARD": ["#1e1e2e", "#1e1e2e"],
 		"ACTIVITY_CARD_BACKGROUND": ["#1e1e2e", "#1e1e2e"],
 		"BACKGROUND_ACCENT": ["#181825", "#181825"],
@@ -89,7 +94,7 @@
 		"TEXT_POSITIVE": ["#a6e3a1", "#a6e3a1"],
 		"TEXT_WARNING": ["#f38ba8", "#f38ba8"]
 		},
-		"colours": {
+		"rawColors": {
 			"BRAND_NEW": "#8839ef",
 			"PRIMARY_DARK": "#45475a",
 			"PRIMARY_DARK_100": "#cdd6f4",

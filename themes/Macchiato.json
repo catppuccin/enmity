@@ -1,15 +1,20 @@
 {
 	"name": "Macchiato",
-	"version": "1.6",
+	"version": "1.7",
 	"description": "☕️ Catppuccin Macchiato.",
 	"color": "#c6a0f6",
 	"authors": [
 		{
 			"name": "112c",
 			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
 		}
 	],
-	"theme_color_map": {
+	"spec": 2,
+	"semanticColors": {
 		"KEYBOARD": ["#1e2030", "#1e2030"],
 		"ACTIVITY_CARD_BACKGROUND": ["#1e2030", "#1e2030"],
 		"BACKGROUND_ACCENT": ["#1e2030", "#1e2030"],
@@ -89,7 +94,7 @@
 		"TEXT_POSITIVE": ["#eed49f", "#eed49f"],
 		"TEXT_WARNING": ["#ed8796", "#ed8796"]
 		},
-		"colours": {
+		"rawColors": {
 			"BRAND_NEW": "#8839ef",
 			"PRIMARY_DARK": "#494d64",
 			"PRIMARY_DARK_100": "#cad3f5",

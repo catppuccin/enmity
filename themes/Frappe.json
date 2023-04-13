@@ -1,15 +1,20 @@
 {
 	"name": "Frappé",
-	"version": "1.5",
+	"version": "1.7",
 	"description": "☕️ Catppuccin Frappe.",
 	"color": "#ca9ee6",
 	"authors": [
 		{
 			"name": "112c",
 			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
 		}
 	],
-	"theme_color_map": {
+	"spec": 2,
+	"semanticColors": {
 		"KEYBOARD": ["#303446", "#303446"],
 		"ACTIVITY_CARD_BACKGROUND": ["#303446", "#303446"],
 		"BACKGROUND_ACCENT": ["#292c3c", "#292c3c"],
@@ -89,7 +94,7 @@
 		"TEXT_POSITIVE": ["#a6d189", "#a6d189"],
 		"TEXT_WARNING": ["#e78284", "#e78284"]
 		},
-		"colours": {
+		"rawColors": {
 			"BRAND_NEW": "#8839ef",
 			"PRIMARY_DARK": "#51576d",
 			"PRIMARY_DARK_100": "#c6d0f5",
