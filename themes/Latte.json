@@ -1,15 +1,20 @@
 {
 	"name": "Latte",
-	"version": "1.5",
+	"version": "1.7",
 	"description": "☕️ Catppuccin Latte.",
 	"color": "#8839ef",
 	"authors": [
 		{
 			"name": "112c",
 			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
 		}
 	],
-	"theme_color_map": {
+	"spec": 2,
+	"semanticColors": {
 		"KEYBOARD": ["#6c6f85", "#6c6f85"],
 		"ACTIVITY_CARD_BACKGROUND": ["#eff1f5", "#eff1f5"],
 		"BACKGROUND_ACCENT": ["#e6e9ef", "#e6e9ef"],
@@ -89,19 +94,19 @@
 		"TEXT_POSITIVE": ["#40a02b", "#40a02b"],
 		"TEXT_WARNING": ["#d20f39", "#d20f39"]
 		},
-		"colours": {
-			"BRAND_NEW": "#8839ef",
-			"PRIMARY_DARK": "#bcc0cc",
-			"PRIMARY_DARK_100": "#4c4f69",
-			"PRIMARY_DARK_300": "#4c4f69",
-			"PRIMARY_DARK_360": "#8839ef",
-			"PRIMARY_DARK_400": "#7f849c",
-			"PRIMARY_DARK_500": "#ccd0da",
-			"PRIMARY_DARK_600": "#ccd0da",
-			"PRIMARY_DARK_630": "#bcc0cc",
-			"PRIMARY_DARK_700": "#ccd0da",
-			"PRIMARY_DARK_800": "#e6e9ef",
-			"PRIMARY_DARK_900": "#eff1f5",
+		"rawColors": {
+			"BRAND": "#8839ef",
+			"PRIMARY": "#bcc0cc",
+			"PRIMARY_100": "#4c4f69",
+			"PRIMARY_300": "#4c4f69",
+			"PRIMARY_360": "#8839ef",
+			"PRIMARY_400": "#7f849c",
+			"PRIMARY_500": "#ccd0da",
+			"PRIMARY_600": "#ccd0da",
+			"PRIMARY_630": "#bcc0cc",
+			"PRIMARY_700": "#ccd0da",
+			"PRIMARY_800": "#e6e9ef",
+			"PRIMARY_900": "#eff1f5",
 			"WHITE": "#4c4f69"
 		},
 		"unsafe_colors": {

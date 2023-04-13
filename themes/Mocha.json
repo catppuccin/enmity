@@ -1,15 +1,20 @@
 {
 	"name": "Mocha",
-	"version": "1.5",
+	"version": "1.7",
 	"description": "☕️ Catppuccin Mocha.",
 	"color": "#cba6f7",
 	"authors": [
 		{
 			"name": "112c",
 			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
 		}
 	],
-	"theme_color_map": {
+	"spec": 2,
+	"semanticColors": {
 		"KEYBOARD": ["#1e1e2e", "#1e1e2e"],
 		"ACTIVITY_CARD_BACKGROUND": ["#1e1e2e", "#1e1e2e"],
 		"BACKGROUND_ACCENT": ["#181825", "#181825"],
@@ -89,19 +94,19 @@
 		"TEXT_POSITIVE": ["#a6e3a1", "#a6e3a1"],
 		"TEXT_WARNING": ["#f38ba8", "#f38ba8"]
 		},
-		"colours": {
-			"BRAND_NEW": "#8839ef",
-			"PRIMARY_DARK": "#45475a",
-			"PRIMARY_DARK_100": "#cdd6f4",
-			"PRIMARY_DARK_300": "#cdd6f4",
-			"PRIMARY_DARK_360": "#cba6f7",
-			"PRIMARY_DARK_400": "#7f849c",
-			"PRIMARY_DARK_500": "#313244",
-			"PRIMARY_DARK_600": "#313244",
-			"PRIMARY_DARK_630": "#45475a",
-			"PRIMARY_DARK_700": "#313244",
-			"PRIMARY_DARK_800": "#181825",
-			"PRIMARY_DARK_900": "#1e1e2e",
+		"rawColors": {
+			"BRAND": "#8839ef",
+			"PRIMARY": "#45475a",
+			"PRIMARY_100": "#cdd6f4",
+			"PRIMARY_300": "#cdd6f4",
+			"PRIMARY_360": "#cba6f7",
+			"PRIMARY_400": "#7f849c",
+			"PRIMARY_500": "#313244",
+			"PRIMARY_600": "#313244",
+			"PRIMARY_630": "#45475a",
+			"PRIMARY_700": "#313244",
+			"PRIMARY_800": "#181825",
+			"PRIMARY_900": "#1e1e2e",
 			"WHITE": "#cdd6f4"
 		},
 		"unsafe_colors": {
