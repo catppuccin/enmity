@@ -1,7 +1,7 @@
 {
-	"name": "Mocha",
+	"name": "Catppuccin Mocha",
 	"version": "1.7",
-	"description": "☕️ Catppuccin Mocha.",
+	"description": "Soothing pastel theme for Enmity",
 	"color": "#cba6f7",
 	"authors": [
 		{
@@ -90,12 +90,12 @@
 		"TEXT_LINK": ["#b4befe", "#b4befe"],
 		"TEXT_LINK_LOW_SATURATION": ["#cdd6f4", "#cdd6f4"],
 		"TEXT_MUTED": ["#6c7086", "#6c7086"],
-		"TEXT_NORMAL": ["#cdd6f4", "#cdd6f4"],
+		"TEXT_NORMAL": ["#9399b2", "#9399b2"],
 		"TEXT_POSITIVE": ["#a6e3a1", "#a6e3a1"],
 		"TEXT_WARNING": ["#f38ba8", "#f38ba8"]
 		},
 		"rawColors": {
-			"BRAND": "#8839ef",
+			"BRAND": "#cba6f7",
 			"PRIMARY": "#45475a",
 			"PRIMARY_100": "#cdd6f4",
 			"PRIMARY_300": "#cdd6f4",
@@ -105,8 +105,8 @@
 			"PRIMARY_600": "#313244",
 			"PRIMARY_630": "#45475a",
 			"PRIMARY_700": "#313244",
-			"PRIMARY_800": "#181825",
-			"PRIMARY_900": "#1e1e2e",
+			"PRIMARY_800": "#1e1e2e",
+			"PRIMARY_900": "#181825",
 			"WHITE": "#cdd6f4"
 		},
 		"unsafe_colors": {

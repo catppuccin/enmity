@@ -1,0 +1,130 @@
+---
+accent: mauve
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+---
+
+{%- set palette = flavor.colors -%}
+
+{%- macro double(color) -%}
+["#{{ color.hex }}", "#{{ color.hex }}"]
+{%- endmacro -%}
+
+{
+	"name": "Catppuccin {{ flavor.name }}",
+	"version": "1.7",
+	"description": "Soothing pastel theme for Enmity",
+	"color": "#{{ palette[accent].hex }}",
+	"authors": [
+		{
+			"name": "112c",
+			"id": "696446023815397456"
+		},
+		{
+			"name": "InvitedToHell",
+			"id": "469514043053309952"
+		}
+	],
+	"spec": 2,
+	"semanticColors": {
+		"KEYBOARD": {{ self::double(color=palette.base) }},
+		"ACTIVITY_CARD_BACKGROUND": {{ self::double(color=palette.base) }},
+		"BACKGROUND_ACCENT": {{ self::double(color=palette.mantle) }},
+		"BACKGROUND_FLOATING": {{ self::double(color=palette.mantle) }},
+		"BACKGROUND_MENTIONED": {{ self::double(color=palette.peach) }},
+		"BACKGROUND_MENTIONED_HOVER": {{ self::double(color=palette.yellow) }},
+		"BACKGROUND_MESSAGE_HOVER": {{ self::double(color=palette.surface2) }},
+		"BACKGROUND_MOBILE_PRIMARY": {{ self::double(color=palette.mantle) }},
+		"BACKGROUND_MOBILE_SECONDARY": {{ self::double(color=palette.base) }},
+		"BACKGROUND_MODIFIER_ACCENT": {{ self::double(color=palette.crust) }},
+		"BACKGROUND_MODIFIER_ACTIVE": {{ self::double(color=palette.overlay0) }},
+		"BACKGROUND_MODIFIER_HOVER": {{ self::double(color=palette.overlay0) }},
+		"BACKGROUND_MODIFIER_SELECTED": {{ self::double(color=palette.surface0) }},
+		"BACKGROUND_NESTED_FLOATING": {{ self::double(color=palette.base) }},
+		"BACKGROUND_PRIMARY": {{ self::double(color=palette.base) }},
+		"BACKGROUND_SECONDARY": {{ self::double(color=palette.base) }},
+		"BACKGROUND_SECONDARY_ALT": {{ self::double(color=palette.base) }},
+		"BACKGROUND_TERTIARY": {{ self::double(color=palette.crust) }},
+		"CHANNELS_DEFAULT": {{ self::double(color=palette.text) }},
+		"CHANNEL_ICON": {{ self::double(color=palette.blue) }},
+		"CHANNELTEXTAREA_BACKGROUND": {{ self::double(color=palette.base) }},
+		"CONTROL_BRAND_FOREGROUND": {{ self::double(color=palette.base) }},
+		"CONTROL_BRAND_FOREGROUND_NEW": {{ self::double(color=palette.base) }},
+		"DEPRECATED_CARD_BG": {{ self::double(color=palette.base) }},
+		"DEPRECATED_CARD_EDITABLE_BG": {{ self::double(color=palette.base) }},
+		"DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": {{ self::double(color=palette.base) }},
+		"DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": {{ self::double(color=palette.base) }},
+		"DEPRECATED_STORE_BG": {{ self::double(color=palette.base) }},
+		"DEPRECATED_TEXT_INPUT_BG": {{ self::double(color=palette.base) }},
+		"DEPRECATED_TEXT_INPUT_BORDER": {{ self::double(color=palette.base) }},
+		"DEPRECATED_TEXT_INPUT_BORDER_DISABLED": {{ self::double(color=palette.base) }},
+		"DEPRECATED_TEXT_INPUT_BORDER_HOVER": {{ self::double(color=palette.base) }},
+		"DEPRECATED_TEXT_INPUT_PREFIX": {{ self::double(color=palette.base) }},
+		"ELEVATION_HIGH": {{ self::double(color=palette.base) }},
+		"ELEVATION_LOW": {{ self::double(color=palette.base) }},
+		"ELEVATION_MEDIUM": {{ self::double(color=palette.base) }},
+		"ELEVATION_STROKE": {{ self::double(color=palette.base) }},
+		"FOCUS_PRIMARY": {{ self::double(color=palette.base) }},
+		"GUILD_HEADER_TEXT_SHADOW": {{ self::double(color=palette.base) }},
+		"HEADER_PRIMARY": {{ self::double(color=palette.text) }},
+		"HEADER_SECONDARY": {{ self::double(color=palette.subtext1) }},
+		"INFO_DANGER_BACKGROUND": {{ self::double(color=palette.base) }},
+		"INFO_DANGER_FOREGROUND": {{ self::double(color=palette.mantle) }},
+		"INFO_DANGER_TEXT": {{ self::double(color=palette.text) }},
+		"INFO_HELP_BACKGROUND": {{ self::double(color=palette.base) }},
+		"INFO_HELP_FOREGROUND": {{ self::double(color=palette.crust) }},
+		"INFO_HELP_TEXT": {{ self::double(color=palette.text) }},
+		"INFO_POSITIVE_BACKGROUND": {{ self::double(color=palette.base) }},
+		"INFO_POSITIVE_FOREGROUND": {{ self::double(color=palette.crust) }},
+		"INFO_POSITIVE_TEXT": {{ self::double(color=palette.text) }},
+		"INFO_WARNING_BACKGROUND": {{ self::double(color=palette.base) }},
+		"INFO_WARNING_FOREGROUND": {{ self::double(color=palette.crust) }},
+		"INFO_WARNING_TEXT": {{ self::double(color=palette.subtext1) }},
+		"INTERACTIVE_ACTIVE": {{ self::double(color=palette.text) }},
+		"INTERACTIVE_HOVER": {{ self::double(color=palette.subtext1) }},
+		"INTERACTIVE_MUTED": {{ self::double(color=palette.surface2) }},
+		"INTERACTIVE_NORMAL": {{ self::double(color=palette.text) }},
+		"LOGO_PRIMARY": {{ self::double(color=palette.blue) }},
+		"SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {{ self::double(color=palette.overlay0) }},
+		"SCROLLBAR_AUTO_SCROLLBAR_COLOR_TRACK": {{ self::double(color=palette.surface1) }},
+		"SCROLLBAR_AUTO_THUMB": {{ self::double(color=palette.overlay0) }},
+		"SCROLLBAR_AUTO_TRACK": {{ self::double(color=palette.surface1) }},
+		"SCROLLBAR_THIN_THUMB": {{ self::double(color=palette.overlay0) }},
+		"SCROLLBAR_THIN_TRACK": {{ self::double(color=palette.surface1) }},
+		"STATUS_DANGER_BACKGROUND": {{ self::double(color=palette.red) }},
+		"STATUS_DANGER_TEXT": {{ self::double(color=palette.blue) }},
+		"STATUS_POSITIVE_BACKGROUND": {{ self::double(color=palette.green) }},
+		"STATUS_POSITIVE_TEXT": {{ self::double(color=palette.text) }},
+		"STATUS_WARNING_BACKGROUND": {{ self::double(color=palette.peach) }},
+		"STATUS_WARNING_TEXT": {{ self::double(color=palette.overlay1) }},
+		"TEXTBOX_MARKDOWN_SYNTAX": {{ self::double(color=palette.sapphire) }},
+		"TEXT_DANGER": {{ self::double(color=palette.red) }},
+		"TEXT_LINK": {{ self::double(color=palette.lavender) }},
+		"TEXT_LINK_LOW_SATURATION": {{ self::double(color=palette.text) }},
+		"TEXT_MUTED": {{ self::double(color=palette.overlay0) }},
+		"TEXT_NORMAL": {{ self::double(color=palette.overlay2) }},
+		"TEXT_POSITIVE": {{ self::double(color=palette.green) }},
+		"TEXT_WARNING": {{ self::double(color=palette.red) }}
+		},
+		"rawColors": {
+			"BRAND": "#{{ palette[accent].hex }}",
+			"PRIMARY": "#{{ palette.surface1.hex }}",
+			"PRIMARY_100": "#{{ palette.text.hex }}",
+			"PRIMARY_300": "#{{ palette.text.hex }}",
+			"PRIMARY_360": "#{{ palette[accent].hex }}",
+			"PRIMARY_400": "#{{ palette.overlay1.hex }}",
+			"PRIMARY_500": "#{{ palette.surface0.hex }}",
+			"PRIMARY_600": "#{{ palette.surface0.hex }}",
+			"PRIMARY_630": "#{{ palette.surface1.hex }}",
+			"PRIMARY_700": "#{{ palette.surface0.hex }}",
+			"PRIMARY_800": "#{{ palette.base.hex }}",
+			"PRIMARY_900": "#{{ palette.mantle.hex }}",
+			"WHITE": "#{{ palette.text.hex }}"
+		},
+		"unsafe_colors": {
+			"CHAT_GREY": "#{{ palette.surface0.hex }}"
+		}
+}
