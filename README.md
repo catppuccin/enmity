@@ -2,8 +2,7 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin for <a href="https://github.com/enmity-mod/enmity">Enmity</a>
-  
-
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
@@ -12,43 +11,13 @@
 	<a href="https://github.com/catppuccin/enmity/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/enmity?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-  ![All Vers](https://raw.githubusercontent.com/catppuccin/enmity/main/assets/res.png)
-  
+<p align="center">
+	<img src="assets/preview.webp"/>
+</p>
 
 ## Usage
 
-<details>
-<summary>🌻 Latte</summary>
-<h5> Add this theme in Enmity's theme settings</h5>
-	
-    https://raw.githubusercontent.com/catppuccin/enmity/main/themes/Latte.json
-
-</details>
-
-<details>
-<summary>🪴 Frappé</summary>
-<h5> Add this theme in Enmity's theme settings</h5>
-	
-    https://raw.githubusercontent.com/catppuccin/enmity/main/themes/Frappe.json
-
-</details>
-
-<details>
-<summary> 🌺 Macchiato</summary>
-<h5> Add this theme in Enmity's theme settings</h5>
-	
-    https://raw.githubusercontent.com/catppuccin/enmity/main/themes/Macchiato.json
-
-</details>
-
-<details>
-<summary>🌿  Mocha</summary>
-<h5> Add this theme in Enmity's theme settings</h5>
-	
-    https://raw.githubusercontent.com/catppuccin/enmity/main/themes/Mocha.json
-
-</details>
-
+1. Add `https://github.com/catppuccin/enmity/raw/main/themes/catppuccin-<flavor>.json` where `<flavor>` is the flavor of your choice.
 
 ## 💝 Thanks to
 
