@@ -17,7 +17,8 @@
 
 ## Usage
 
-1. Add `https://github.com/catppuccin/enmity/raw/main/themes/catppuccin-<flavor>.json` where `<flavor>` is the flavor of your choice.
+1. Download `https://github.com/catppuccin/enmity/raw/main/themes/catppuccin-<flavor>.json` where `<flavor>` is the flavor of your choice.
+2. Apply the downloaded JSON to your Enmity theme settings.
 
 ## 💝 Thanks to
 
